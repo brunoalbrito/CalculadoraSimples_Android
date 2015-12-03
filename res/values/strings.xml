@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calculadora Simples</string>
+    <string name="action_settings">Settings</string>
+    <string name="one">Insert the firth number:</string>
+    <string name="two">Insert the second number:</string>
+    <string name="soma">+</string>
+    <string name="subtracao">-</string>
+    <string name="divisao">/</string>
+    <string name="mult">*</string>
+    <string name="clear">Limpar</string>
+</resources>

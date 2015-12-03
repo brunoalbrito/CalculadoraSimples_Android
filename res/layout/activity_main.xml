@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/lbltext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/one"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/txtnumber1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:digits="1234567890.,"
+        android:inputType="number|numberSigned" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/lbltext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/two"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/txtnumber2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:digits="1234567890.,"
+        android:inputType="number|numberSigned" />
+
+    <Button
+        android:id="@+id/btnsoma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/soma" />
+
+    <Button
+        android:id="@+id/btnsub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subtracao" />
+
+    <Button
+        android:id="@+id/btndiv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/divisao" />
+
+    <Button
+        android:id="@+id/btnmult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mult" />
+
+    <Button
+        android:id="@+id/btnclear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear" />
+
+    <EditText
+        android:id="@+id/txtresult"
+        android:focusable="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:digits="1234567890.,"
+        android:ems="10"
+        android:inputType="none" 
+        />
+
+</LinearLayout>
